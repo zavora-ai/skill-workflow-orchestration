@@ -1,11 +1,11 @@
 ---
 name: workflow-orchestration
 description: Orchestrate multi-step workflows with approval gates, state machines, and conditional branching. Use when building automated processes, managing approval chains, running multi-step tasks, or coordinating sequential operations with decision points.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-workflow server connected.
 allowed-tools: [list_workflows, get_workflow, create_workflow, start_workflow, list_instances, get_instance, advance_step, cancel_instance, list_approvals, resolve_approval]
-tags: [infrastructure, workflow, automation, approvals, state-machine]
 metadata:
+  category: platform
   author: Zavora AI
   mcp-server: mcp-workflow
   success-criteria:
